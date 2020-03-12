@@ -20,7 +20,7 @@ def directors_totals(nds)
             "#{nds[3][:name]}"=> nds[3][:movies][0][:worldwide_gross] + nds[3][:movies][1][:worldwide_gross] + nds[3][:movies][2][:worldwide_gross] + nds[3][:movies][3][:worldwide_gross] + nds[3][:movies][4][:worldwide_gross],
             "#{nds[4][:name]}"=> nds[4][:movies][0][:worldwide_gross] + nds[4][:movies][1][:worldwide_gross] + nds[4][:movies][2][:worldwide_gross] + nds[4][:movies][3][:worldwide_gross] + nds[4][:movies][4][:worldwide_gross] + nds[4][:movies][5][:worldwide_gross],
             "#{nds[5][:name]}" => nds[5][:movies][0][:worldwide_gross] + nds[5][:movies][1][:worldwide_gross] + nds[5][:movies][2][:worldwide_gross] + nds[5][:movies][3][:worldwide_gross] + nds[5][:movies][4][:worldwide_gross] + nds[5][:movies][5][:worldwide_gross],
-            "#{nds[6][:name]}" => nds[6][:movies][0][:worldwide_gross] + nds[6][:movies][1][:worldwide_gross] + nds[0][:movies][2][:worldwide_gross] + nds[0][:movies][3][:worldwide_gross] + nds[0][:movies][4][:worldwide_gross] + nds[0][:movies][5][:worldwide_gross]
+            "#{nds[6][:name]}" => nds[6][:movies][0][:worldwide_gross] + nds[6][:movies][1][:worldwide_gross] + nds[6][:movies][2][:worldwide_gross] + nds[0][:movies][3][:worldwide_gross] + nds[0][:movies][4][:worldwide_gross] + nds[0][:movies][5][:worldwide_gross]
           }
             
             
